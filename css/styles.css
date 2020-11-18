@@ -12,13 +12,14 @@ left: 0;
 top:0;
 }
 .middle{
-  border-radius: 10%;
+padding-bottom: 0;
+border-radius: 10%;
 position: absolute;
 left:40%;
-top:250px;
+top:30vh;
 background-color: white;
-height:40vh;
-width:25%;
+height:400px;
+width:350px;
 z-index: 1;
 }
 .middle-img{
@@ -86,12 +87,13 @@ text-align: center;
 
 }
 .follow{
+  padding: 0;
   width: 100%;
-  margin: auto;
+  margin: 20px auto auto auto;
   text-align: center;
 }
 .follow1{
-  margin: 10px auto 5px auto;
+  margin: auto;
   font-size: 1.125rem;
   font-weight: 700;
   font-family: 'Kumbh Sans', sans-serif;
@@ -101,8 +103,9 @@ text-align: center;
 .follow2{
   font-size: 0.8rem;
   color: #404040;
-  margin: 10px auto 5px auto;
+  margin:auto;
   font-family: 'Kumbh Sans', sans-serif;
   width: 30%;
   display: inline-block;
+
 }
