@@ -1,0 +1,108 @@
+body{
+  position: relative;
+  padding: 0;
+  background-color: hsl(185, 75%, 39%);
+  width: 1440px;
+
+}
+.top{
+width: 60%;
+position: absolute;
+left: 0;
+top:0;
+}
+.middle{
+  border-radius: 10%;
+position: absolute;
+left:40%;
+top:250px;
+background-color: white;
+height:40vh;
+width:25%;
+z-index: 1;
+}
+.middle-img{
+  width: 100%;
+  height: 10%;
+}
+.bottom{
+width: 60%;
+position: absolute;
+right: 0;
+}
+.image1{
+width: 100%;
+position: relative;
+float: left;
+left: -200px;
+top:-350px;
+}
+.image2{
+width: 100%;
+position: relative;
+float: right;
+right: -200px;
+bottom: -350px;
+}
+hr{
+background-color:#e6e6e6	;
+border:none;
+height:1px;
+
+}
+.image3{
+  position: absolute;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  width: 100%;
+  z-index: -1;
+}
+.victor-img{
+  border: 10px solid white;
+  border-radius: 100%;
+}
+.victor1{
+  z-index: 1;
+  position: relative;
+  top: 10%;
+  left: 35%;
+}
+.victor2{
+width: 200px;
+margin: auto;
+margin-top: 50px;
+text-align: center;
+}
+.V1{
+  font-size: 1.125rem;
+  font-family: 'Kumbh Sans', sans-serif;
+
+}
+.V2{
+  color:#404040;
+  font-family: 'Kumbh Sans', sans-serif;
+  padding: 5px;
+  font-size: 1rem;
+
+}
+.follow{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.follow1{
+  margin: 10px auto 5px auto;
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: 'Kumbh Sans', sans-serif;
+  width: 30%;
+  display: inline-block;
+}
+.follow2{
+  font-size: 0.8rem;
+  color: #404040;
+  margin: 10px auto 5px auto;
+  font-family: 'Kumbh Sans', sans-serif;
+  width: 30%;
+  display: inline-block;
+}
