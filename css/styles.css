@@ -1,5 +1,7 @@
 body{
   background-color: hsl(185, 75%, 39%);
+  padding: 0;
+  margin: 0;
 }
 .mid-base{
   width: 100%;
@@ -14,6 +16,7 @@ body{
 }
 .middle{
 padding-bottom: 0;
+margin: 0;
 border-radius: 20px;
 position: absolute;
 top: 30%;
@@ -61,9 +64,11 @@ height:1px;
 }
 .image3{
   position: absolute;
+  padding: 0;
+  margin: 0;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  width: 100%;
+  width: 100.05%;
   z-index: -1;
 }
 .victor-img{
