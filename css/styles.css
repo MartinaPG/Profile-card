@@ -15,14 +15,13 @@ body{
   align-items: center;
 }
 .middle{
+flex-shrink:2;
 padding-bottom: 0;
 margin: 0;
 border-radius: 20px;
 position: absolute;
-top: 30%;
-bottom: 30%;
-left: 40%;
-right: 40%;
+width:400px;
+height: 400px;
 background-color: white;
 
 }
@@ -41,6 +40,7 @@ width: 100%;
 }
 .img1{
   width: 60%;
+  height: 50vh;
   position: fixed;
   float: left;
   left: -15%;
